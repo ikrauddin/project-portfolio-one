@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Lato:wght@300&family=Manrope:wght@300&family=Oswald:wght@200);
+
+body {
+    font-family: comfortaa, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: manrope, sans-serif;
+}
+
+nav {
+    float:right;
+}
+
+.text-center {
+    text-align: center;
+}
