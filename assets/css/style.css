@@ -2,6 +2,7 @@
 
 body {
     font-family: comfortaa, sans-serif;
+    color:blueviolet;
 }
 
 h1, h2, h3 {
@@ -10,8 +11,42 @@ h1, h2, h3 {
 
 nav {
     float:right;
+    font-size: 110%;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color:blueviolet;
 }
 
 .text-center {
     text-align: center;
+    font-size: 300%;
+    display: inline-block;
+}
+
+img {
+    max-width: 200%;
+    max-height: 100%;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.cover-text {
+    float: right;
+    padding-left: 10px;
+	border-radius: 8px;
+	width: 600px;
+	margin: 1%;
+	background-color: rgb(93, 30, 210);
+    color: antiquewhite;
+    display: inline-block;
+}
+
+.cover-image {
+    height: 500px;
+    width: 500px;
+    padding-left: 30px;
 }
