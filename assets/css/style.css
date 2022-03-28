@@ -124,3 +124,26 @@ nav > a:hover {
     background-color: antiquewhite;
     color: rgb(93, 30, 210);
 }
+
+.social-networks {
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 200%;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    padding: 50px;
+    color: rgb(93, 30, 210);
+}
+
+footer > h4 {
+    text-align: center;
+    position: relative;
+    top: 145px;
+}
