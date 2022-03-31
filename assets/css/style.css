@@ -13,8 +13,8 @@ nav {
     float:right;
     font-size: 110%;
     letter-spacing: 1px;
-    padding-top: 65px;
-    margin-right: 50px;
+    padding-top: 4rem;
+    margin-right: 3.125rem;
 }
 
 a {
@@ -26,7 +26,7 @@ a {
     text-align: center;
     font-size: 325%;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 3.125rem;
 }
 
 img {
@@ -35,23 +35,23 @@ img {
     border-radius: 15px;
     display: inline-block;
     position: relative;
-    left: 175px;
+    left: 11rem;
     z-index: -1;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .cover-text {
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-right: 5px;
-	border-radius: 8px;
-	width: 600px;
-	margin-top: 90px;
+    padding-left: 0.62rem;
+    padding-bottom: 0.62rem;
+    padding-right: 0.31rem;
+	border-radius: 0.5rem;
+	width: 37.5rem;
+	margin-top: 5.62rem;
 	background-color: rgb(93, 30, 210);
     color: antiquewhite;
     float: right;
     position: relative;
-    right: 400px;
+    right: 25rem;
 }
 
 .read-more {
@@ -60,9 +60,9 @@ img {
 }
 
 .cover-image {
-    height: 500px;
-    width: 500px;
-    padding-left: 30px;
+    height: 31.25rem;
+    width: 31.25rem;
+    padding-left: 1.87rem;
 }
 
 nav > a:hover {
@@ -73,20 +73,20 @@ nav > a:hover {
 .contact-form {
     color: antiquewhite;
     background-color: rgb(93, 30, 210);
-    padding-top: 5px;
-    padding-bottom: 20px;
+    padding-top: 0.31rem;
+    padding-bottom: 1.25rem;
     text-align: center;
     border-radius: 10px;
-    margin-top: 90px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-top: 5.62rem;
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
 }
 
 .text {
     background: transparent;
     color: antiquewhite;
     width: 20%;
-    height: 25px;
+    height: 1.56rem;
     margin: 5px 0 20px 0;
     border: 1px solid antiquewhite;
     border-radius: 2px;
@@ -97,8 +97,8 @@ nav > a:hover {
     color: antiquewhite;
     border: 1px solid antiquewhite;
     border-radius: 2px;
-    height: 100px;
-    width: 650px;
+    height: 6.25rem;
+    width: 40.62rem;
 }
 
 ::placeholder {
@@ -118,8 +118,8 @@ nav > a:hover {
     display: block;
     position: relative;
     left: 80rem;
-    bottom: 40px;
-    margin-right: 20px;
+    bottom: 2.5rem;
+    margin-right: 1.25rem;
     font-family: comfortaa, sans-serif;
 }
 
@@ -139,23 +139,23 @@ nav > a:hover {
 
 .social-networks i{
     font-size: 200%;
-    margin-top: 100px;
-    margin-bottom: 5px;
-    padding: 50px;
+    margin-top: 6.25rem;
+    margin-bottom: 0.31rem;
+    padding: 3.12rem;
     color: rgb(93, 30, 210);
 }
 
 footer > h4 {
     text-align: center;
     position: relative;
-    top: 140px;
+    top: 8.75rem;
 }
 
 .what-section {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
     text-align: justify;
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 .tips-section {
@@ -165,6 +165,65 @@ footer > h4 {
     margin-top: 80px;
 }
 
-.mindful-tutorial{
-    text-align: center;
-}
+@media screen and (max-width: 1440px) {
+
+    .cover-text {
+        position: relative;
+        left: 3rem;
+    }
+
+    @media screen and (max-width: 768px) {
+
+        nav {
+            font-size: 110%;
+            padding-top: inherit;
+            margin-left: inherit
+        }
+
+        .what-section {
+            margin-top: 10rem;
+        }
+
+        .submit-button {
+            position: relative;
+            left: 38rem;
+            margin-top: 4rem;
+        }
+
+        img {
+            width: inherit;
+
+        }
+
+        .cover-text {
+            width: auto;
+        }
+
+@media screen and (max-width: 425px){
+
+    .cover-text {
+
+        width:auto
+
+    }
+
+    .what-section {
+        margin-top: 15rem;
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+
+    .tips-section {
+        margin-top: 4rem;
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+
+    .text-input {
+        width: 20rem;
+    }
+
+    .submit-button {
+        position: relative;
+        left: 17rem;
+    }
